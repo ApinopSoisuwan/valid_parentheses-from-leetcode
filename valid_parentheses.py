@@ -1,5 +1,5 @@
 def isValid(s):
-    for i in range(len(s)//2): #done
+    for i in range(len(s)//2): #done #reduce loop
         s = s.replace('()','')
         s = s.replace('[]','')
         s = s.replace('{}','')
